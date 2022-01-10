@@ -1,0 +1,12 @@
+body {
+  margin: 2em;
+}
+.button {
+  margin: 1em 0;
+  background-color: pink;
+  border: 1px solid green;
+  cursor: pointer;
+}
+.blue {
+  color: blue;
+}
