@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: rgb(70,70,70);
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255,255,255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.status {
+  text-align: center;
+  padding: .5em;
+}
+.game-board {
+  display: flex;
+  flex-direction: column;
+}
+.board-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.square {
+  height: 4em;
+  width: 4em;
+  cursor: pointer;
+  border: 1px solid rgb(70,70,70)
+}
+.square:hover {
+  background-color: aqua;
+  box-shadow: inset 2px 2px 4px black, inset -2px -2px 4px black;
+}
