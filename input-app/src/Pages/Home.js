@@ -6,7 +6,7 @@ export default function Home() {
             <NavBar/>
             <div class='main'>
                 <article class='articleRow'>
-                    This is the Homepage!
+                    Handout React -- This is the Homepage!
                 </article>
             </div>
         </div>

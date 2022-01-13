@@ -13,6 +13,10 @@ export default function NavBar() {
                 <li>task1</li>
             </Link>
 
+            <Link to='/Task2'>
+                <li>task2</li>
+            </Link>
+
         </div>
     )
         
