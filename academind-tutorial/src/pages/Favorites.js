@@ -1,8 +1,8 @@
-import NavBar from "../components/NavBar"
+import NavBar from "../components/NavBar";
 
 export default function FavoritesPage() {
-    return (
-        <div>
+  return (
+    <div>
       <NavBar />
       <main>
         <div className="section">
@@ -10,5 +10,5 @@ export default function FavoritesPage() {
         </div>
       </main>
     </div>
-    )
+  );
 }

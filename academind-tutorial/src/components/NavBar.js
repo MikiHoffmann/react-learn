@@ -21,7 +21,7 @@ export default function NavBar() {
         </li>
 
         <li>
-          <Link to="/Favorites">Favorite meetups</Link>
+          <Link to="/Favorites">My favorite meetups</Link>
         </li>
       </ul>
     </nav>
