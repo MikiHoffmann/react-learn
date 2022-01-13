@@ -1,12 +1,13 @@
-import FunctionalInput from "./Components/Input-functional-component";
-import InputClassComponent from "./Components/Input-class-component";
+import {Routes, Route} from 'react-router-dom'
+import Home from './Pages/Home';
+import Task1 from "./Pages/Task1";
 
 function App() {
   return (
-    <div>
-      <FunctionalInput/>
-      <InputClassComponent/>
-    </div>
+    <Routes>
+      <Route path='/' element={<Home/>}/>
+      <Route path='/Task1' element={<Task1/>}/>
+    </Routes>
   );
 }
 
