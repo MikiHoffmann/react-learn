@@ -2,7 +2,7 @@ import React from "react";
 import ListSection from "../ListSection";
 import { useRef } from "react";
 
-export default function NewBridgesForm() {
+export default function NewBridgesForm(props) {
   const titleInputRef = useRef();
   const imageInputRef = useRef();
   const addressInputRef = useRef();
@@ -23,7 +23,7 @@ export default function NewBridgesForm() {
         description: enteredDescription
     }
 
-    console.log(bridgeData)
+    props.onAddBridges(bridgeData)
   }
 
   return (

@@ -4,6 +4,7 @@ export default function InputFunctionalComponent() {
 
     const [startText, setText] = useState('Miki')
     const changeHandler = (e) => {
+
         setText(e.target.value)
     }
     return (

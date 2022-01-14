@@ -1,7 +1,7 @@
 import NavBar from "../Components/NavBar";
-import InputFunctionalComponent from "../Components/Input-functional-component";
-import InputClassComponent from "../Components/Input-class-component";
-import ButtonClassComponent from "../Components/Button-class-component";
+import InputFunctionalComponent from "../Components/task1/Input-functional-component";
+import InputClassComponent from "../Components/task1/Input-class-component";
+import ButtonClassComponent from "../Components/task1/Button-class-component";
 
 export default function Task1() {
     return (
