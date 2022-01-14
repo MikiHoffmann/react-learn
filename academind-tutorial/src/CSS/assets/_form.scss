@@ -1,0 +1,21 @@
+.form {
+    display: grid;
+    width: 80%;
+    margin: auto;
+    padding: 1em;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 2px 2px 4px black;
+    input, textarea {
+        line-height: 1.5em;
+        padding-left: .2em;
+        border: none;
+        box-shadow: inset 1px 1px 2px black, inset -1px -1px 2px black;
+    }
+}
+.control {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: .5em;
+}

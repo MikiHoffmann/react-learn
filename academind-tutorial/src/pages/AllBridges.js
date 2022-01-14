@@ -1,4 +1,4 @@
-import NavBar from "../components/NavBar";
+import NavBar from "../components/layout/NavBar";
 import ListSection from "../components/ListSection";
 import BridgeList from "../components/bridges/BridgeList";
 const bridgesData = [
@@ -76,16 +76,11 @@ const bridgesData = [
 
 export default function AllBridgesPage() {
   return (
-    <div>
-      <NavBar />
-      <main>
-        <div className="section">
+        <section className="section">
           <h1>All Bridges</h1>
           <ListSection>
             <BridgeList bridgeItems={bridgesData} />
           </ListSection>
-        </div>
-      </main>
-    </div>
+        </section>
   );
 }

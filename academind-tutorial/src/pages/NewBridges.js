@@ -1,14 +1,10 @@
-import NavBar from "../components/NavBar";
+import NewBridgesForm from "../components/bridges/NewBridgesForm";
 
 export default function NewBridgesPage() {
   return (
-    <div>
-      <NavBar />
-      <main>
-        <div className="section">
-          <h1>New bridges</h1>
-        </div>
-      </main>
-    </div>
+    <section className="section">
+      <h1>New bridges</h1>
+      <NewBridgesForm />
+    </section>
   );
 }
