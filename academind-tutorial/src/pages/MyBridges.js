@@ -1,12 +1,12 @@
 import NavBar from "../components/NavBar";
 
-export default function FavoritesPage() {
+export default function MyBridgesPage() {
   return (
     <div>
       <NavBar />
       <main>
         <div className="section">
-          <h1>Favorites</h1>
+          <h1>My bridges</h1>
         </div>
       </main>
     </div>

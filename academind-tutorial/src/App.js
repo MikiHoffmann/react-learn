@@ -1,19 +1,19 @@
 import { Routes, Route } from "react-router";
 import Home from "./pages/Home";
-import PageCard from "./pages/PageCard";
-import AllMeetUpsPage from "./pages/AllMeetUps";
-import NewMeetUpsPage from "./pages/NewMeetUps";
-import FavoritesPage from "./pages/Favorites";
+import CardsPage from "./pages/CardsPage";
+import AllBridgesPage from "./pages/AllBridges";
+import NewBridgesPage from "./pages/NewBridges";
+import MyBridgesPage from "./pages/MyBridges";
 
 function App() {
   return (
     <div>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/PageCard" element={<PageCard />} />
-        <Route path="/AllMeetUps" element={<AllMeetUpsPage />} />
-        <Route path="/NewMeetUps" element={<NewMeetUpsPage />} />
-        <Route path="/Favorites" element={<FavoritesPage />} />
+        <Route path="/Cards" element={<CardsPage />} />
+        <Route path="/AllBridges" element={<AllBridgesPage />} />
+        <Route path="/NewBridges" element={<NewBridgesPage />} />
+        <Route path="/MyBridges" element={<MyBridgesPage />} />
       </Routes>
     </div>
   );

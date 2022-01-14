@@ -1,0 +1,37 @@
+.listSection {
+    width: 100%;
+}
+.listContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: transparent;
+    @media only screen and (min-width: 31.25em) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    @media only screen and (min-width: 42em) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media only screen and (min-width: 52em) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+.listItem {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: .3em;
+    padding: .5em;
+    background-color: white;
+    box-shadow: 2px 2px 4px black;
+    img {
+        height: auto;
+        width: 100%;
+    }
+    .actions {
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
+        margin-top: .5em;
+    }
+}

@@ -5,23 +5,23 @@ export default function NavBar() {
     <nav class="navBar">
       <ul>
         <li>
-          <Link to="/">home</Link>
+          <Link to="/">Home</Link>
         </li>
 
         <li>
-          <Link to="/PageCard">Page Card</Link>
+          <Link to="/Cards">Cards</Link>
         </li>
 
         <li>
-          <Link to="/AllMeetUps">All meetups</Link>
+          <Link to="/AllBridges">All bridges</Link>
         </li>
 
         <li>
-          <Link to="/NewMeetUps">New meetups</Link>
+          <Link to="/NewBridges">New bridges</Link>
         </li>
 
         <li>
-          <Link to="/Favorites">My favorite meetups</Link>
+          <Link to="/MyBridges">My bridges</Link>
         </li>
       </ul>
     </nav>

@@ -1,7 +1,7 @@
 import NavBar from "../components/NavBar";
 import Card from "../components/Card";
 
-export default function PageCard() {
+export default function CardsPage() {
   return (
     <div>
       <NavBar />
