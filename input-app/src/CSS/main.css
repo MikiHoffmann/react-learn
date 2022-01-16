@@ -72,6 +72,13 @@ a {
 }
 
 .output {
+  width: 100%;
   margin-left: 1em;
+}
+
+.listItem {
+  text-align: center;
+  list-style-type: none;
+  margin-top: .3em;
 }
 /*# sourceMappingURL=main.css.map */

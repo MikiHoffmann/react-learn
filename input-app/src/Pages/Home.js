@@ -1,14 +1,14 @@
 import NavBar from "../Components/NavBar";
 
 export default function Home() {
-    return (
-        <div>
-            <NavBar/>
-            <div class='main'>
-                <article class='articleRow'>
-                    Handout React -- This is the Homepage!
-                </article>
-            </div>
-        </div>
-    )
+  return (
+    <div>
+      <NavBar />
+      <div className="main">
+        <article className="sectionTask">
+          Handout React -- This is the Homepage!
+        </article>
+      </div>
+    </div>
+  );
 }

@@ -7,7 +7,7 @@ export default function Task1() {
     return (
         <div>
             <NavBar/>
-            <div class='main'>
+            <div className='main'>
                 <InputFunctionalComponent/>
                 <InputClassComponent/>
                 <ButtonClassComponent/>
